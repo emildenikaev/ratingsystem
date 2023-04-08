@@ -10,6 +10,8 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.12",
     "@heroicons/vue": "^2.0.17",
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vue3-material": "^1.0.8"
