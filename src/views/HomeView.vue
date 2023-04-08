@@ -6,7 +6,7 @@
         alt="Информация"
         class="py-7 py-md-0 bg-hero image"
       />
-      <router-link to="/about">
+      <router-link to="/analytics">
         <button class="btn">Аналитика</button>
       </router-link>
     </div>

@@ -10,7 +10,7 @@
       </div>
       <div class="header">
         <router-link to="/" class="header-main">Главная</router-link>
-        <router-link to="/about">Аналитика</router-link>
+        <router-link to="/analytics">Аналитика</router-link>
       </div>
     </nav>
     <router-view />
