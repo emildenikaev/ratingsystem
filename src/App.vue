@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-container">
     <nav>
       <div class="header header-first">
         <a class="logo">RUSFUTURE</a>
@@ -10,7 +10,7 @@
       </div>
       <div class="header">
         <router-link to="/" class="header-main">Главная</router-link>
-        <router-link to="/analytics">Аналитика</router-link>
+        <!-- <router-link to="/analytics">Аналитика</router-link> -->
       </div>
     </nav>
     <router-view />
@@ -31,19 +31,25 @@
   background-color: #fbfbfb;
 }
 
+.main-container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   align-items: center;
   margin-right: 40px;
   margin-left: 40px;
-  &-main {
-    margin-right: 40px;
-  }
+  // &-main {
+  //   margin-right: 40px;
+  // }
 }
 
 nav {
   padding: 30px;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +88,7 @@ nav.footer {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 585px) {
+@media (max-width: 1100px) {
   .header-first {
     display: none;
   }
